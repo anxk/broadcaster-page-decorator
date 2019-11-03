@@ -11,7 +11,7 @@ This is a very simple Jenkins plugin just for exercise, but it work well as show
 
 ## configuration
 
-Go to manage > configure > Simple Broadcaster Plugin, just pust what you want to broadcate in `Message textarea`, for example:
+Go to manage > configure > Simple Broadcaster Plugin, just pust what you want to broadcast in `Message textarea`, for example:
 
 <p align="center">
 	<img src="images/config.png" alt="config.png"  width=90% height=90%>
