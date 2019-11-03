@@ -9,7 +9,7 @@ This is a very simple Jenkins plugin just for exercise, but it work well as show
 	</p>
 </p>
 
-## configuration
+## Configuration
 
 Go to manage > configure > Simple Broadcaster Plugin, just pust what you want to broadcast in `Message textarea`, for example:
 
