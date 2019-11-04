@@ -10,4 +10,12 @@ public class BroadcasterDecorator extends PageDecorator {
         return BroadCasterManager.get().getMessage();
     }
 
+    public String getColor() {
+        return BroadCasterManager.get().getColor();
+    }
+
+    public String getBackground() {
+        return BroadCasterManager.get().getBackground();
+    }
+
 }

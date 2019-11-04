@@ -5,5 +5,11 @@
         <f:entry field="message" title="${%Message}">
             <f:textarea default=""/>
         </f:entry>
+        <f:entry field="color" title="${%Font Color}">
+            <f:textbox default="white"/>
+        </f:entry>
+        <f:entry field="background" title="${%Background}">
+            <f:textbox default="red"/>
+        </f:entry>
     </f:section>
 </j:jelly>
