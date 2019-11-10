@@ -1,5 +1,7 @@
 # Broadcaster Page Decorator
 
+[![Build Status](https://www.travis-ci.org/anxk/broadcaster-page-decorator.svg?branch=master)](https://www.travis-ci.org/anxk/broadcaster-page-decorator)
+
 This plugin can decorate all pages of Jenkins with your customized message, as shown below.
 
 <p align="center">
@@ -8,6 +10,12 @@ This plugin can decorate all pages of Jenkins with your customized message, as s
 		<em>View Example</em>
 	</p>
 </p>
+
+## Installation
+
+Clone this repo in your disk, navigate into folder `broadcaster-page-decorator` and run command `mvn verify`, when it completed, upload `broadcaster-page-decorator/target/broadcaster-page-decorator.hpi` to the update center of Jenkins and install it.
+
+Also you can download `broadcaster-page-decorator.hpi` from [v1.0 release](broadcaster-page-decorator.hpi), then upload to the update center of Jenkins.
 
 ## Configuration
 
