@@ -2,7 +2,7 @@
 
 [![Build Status](https://www.travis-ci.org/anxk/broadcaster-page-decorator.svg?branch=master)](https://www.travis-ci.org/anxk/broadcaster-page-decorator)
 
-This plugin can decorate all pages of Jenkins with your customized message, as shown below.
+This plugin can decorate all pages of Jenkins with your customized message, as shown below:
 
 <p align="center">
 	<img src="images/view-example.png" alt="view-example.png"  width=90% height=90%>
