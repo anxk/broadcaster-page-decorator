@@ -15,7 +15,7 @@ This plugin can decorate all pages of Jenkins with your customized message, as s
 
 Clone this repo on your disk, navigate into folder `broadcaster-page-decorator` and run command `mvn verify`, when it completed, upload `broadcaster-page-decorator/target/broadcaster-page-decorator.hpi` to the update center of Jenkins and install it.
 
-Also you can download `broadcaster-page-decorator.hpi` from [v1.0 release](broadcaster-page-decorator.hpi), then upload it to the update center of Jenkins.
+Also you can download `broadcaster-page-decorator.hpi` from [release page](https://github.com/anxk/broadcaster-page-decorator/releases), then upload it to the update center of Jenkins.
 
 ## Configuration
 
