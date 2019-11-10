@@ -1,6 +1,6 @@
-# Broadcaster Page Decorator
+# Broadcaster Page Decorator Plugin
 
-[![Build Status](https://www.travis-ci.org/anxk/broadcaster-page-decorator.svg?branch=master)](https://www.travis-ci.org/anxk/broadcaster-page-decorator)
+[![Build Status](https://www.travis-ci.org/anxk/broadcaster-page-decorator-plugin.svg?branch=master)](https://www.travis-ci.org/anxk/broadcaster-page-decorator-plugin)
 
 This plugin can decorate all pages of Jenkins with your customized message, as shown below:
 
