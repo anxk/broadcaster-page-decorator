@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-    Simple Broadcaster Plugin
+    Broadcaster Page Decorator Plugin
 </div>

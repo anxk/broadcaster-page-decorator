@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
-    <f:section title="${%Simple Broadcaster Plugin}">
+    <f:section title="${%Broadcaster Page Decorator Plugin}">
         <f:entry field="message" title="${%Message}">
             <f:textarea default=""/>
         </f:entry>

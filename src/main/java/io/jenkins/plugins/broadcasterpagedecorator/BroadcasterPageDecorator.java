@@ -1,4 +1,4 @@
-package io.jenkins.plugins.simplebroadcaster;
+package io.jenkins.plugins.broadcasterpagedecorator;
 
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
@@ -8,7 +8,7 @@ import hudson.model.PageDecorator;
 import net.sf.json.JSONObject;
 
 @Extension
-public class BroadcasterDecorator extends PageDecorator {
+public class BroadcasterPageDecorator extends PageDecorator {
 
     public final static String DEFAULT_COLOR = "white";
     public final static String DEFAULT_BACKGROUND = "red";
@@ -18,14 +18,14 @@ public class BroadcasterDecorator extends PageDecorator {
     private String background;
 
     @DataBoundConstructor
-    public BroadcasterDecorator(String message, String color, String background) {
+    public BroadcasterPageDecorator(String message, String color, String background) {
         this();
         this.message = message;
         this.color = color;
         this.background = background;
     }
 
-    public BroadcasterDecorator() {
+    public BroadcasterPageDecorator() {
         load();
     }
 
@@ -41,6 +41,9 @@ public class BroadcasterDecorator extends PageDecorator {
     }
 
     public String getMessage() {
+        if (message == null || message.trim().isEmpty()) {
+            return "";
+        }
         return message;
     }
 
@@ -49,7 +52,7 @@ public class BroadcasterDecorator extends PageDecorator {
     }
 
     public String getColor() {
-        if (color.equals("")) {
+        if (color == null || color.trim().isEmpty()) {
             return DEFAULT_COLOR;
         }
         return color;
@@ -60,7 +63,7 @@ public class BroadcasterDecorator extends PageDecorator {
     }
 
     public String getBackground() {
-        if (background.equals("")) {
+        if (background == null || background.trim().isEmpty()) {
             return DEFAULT_BACKGROUND;
         }
         return background;

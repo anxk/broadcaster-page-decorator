@@ -1,21 +1,21 @@
-# Simple Broadcaster
+# Broadcaster Page Decorator
 
-This is a very simple Jenkins plugin just for exercise, but it work well as shown bollow.
+This plugin can decorate all pages of Jenkins with your customized message, as shown below.
 
 <p align="center">
 	<img src="images/view-example.png" alt="view-example.png"  width=90% height=90%>
 	<p align="center">
-		<em>example</em>
+		<em>View Example</em>
 	</p>
 </p>
 
 ## Configuration
 
-Go to manage > configure > Simple Broadcaster Plugin, just pust what you want to broadcast in `Message textarea`, for example:
+Go to manage > configure > Broadcaster Page Decorator Plugin, just pust what you want to broadcast in the `Message textarea`, for example (the font color and background can be modified if needed):
 
 <p align="center">
-	<img src="images/config-example.png" alt="config-example.png"  width=90% height=90%>
+	<img src="images/configuration-example.png" alt="configuration-example.png"  width=90% height=90%>
 	<p align="center">
-		<em>configuration</em>
+		<em>Configuration Example</em>
 	</p>
 </p>

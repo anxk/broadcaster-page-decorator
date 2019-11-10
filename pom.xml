@@ -8,14 +8,14 @@
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugins</groupId>
-    <artifactId>simple-broadcaster</artifactId>
+    <artifactId>broadcaster-page-decorator</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
         <jenkins.version>2.164.1</jenkins.version>
         <java.level>8</java.level>
     </properties>
-    <name>Simple Broadcaster Plugin</name>
+    <name>Broadcaster Page Decorator Plugin</name>
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
     <licenses>
         <license>
